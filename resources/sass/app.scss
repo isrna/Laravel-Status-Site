@@ -1,0 +1,33 @@
+// Required
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+svg {
+    overflow:visible;
+    /*allow tooltips to spill into margins */
+}
+svg > .success > rect {
+    fill: $success;
+}
+
+svg > .success > rect:hover{
+    fill: darken($success, 5%);
+    cursor: help;
+}
+
+svg > .danger > rect {
+    fill: $danger;
+}
+
+svg > .danger > rect:hover{
+    fill: darken($danger, 5%);
+    cursor: help;
+}
+
+svg > .warning > rect {
+    fill: $warning;
+}
+
+svg > .warning > rect:hover{
+    fill: darken($warning, 5%);
+    cursor: help;
+}
